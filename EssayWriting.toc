@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Introduction to Essays}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}What is an Essay?}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Introduction paragraph}{1}{subsection.1.2}
+\contentsline {section}{\numberline {2}Body Paragraph}{2}{section.2}
+\contentsline {section}{\numberline {3}Essay Conclusion}{2}{section.3}
+\contentsline {section}{\numberline {4}Writing Process}{3}{section.4}

@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}God}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}What is Philosophy?}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Does God exist?}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Assessing Arguments}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}What is an Argument?}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Validity Argument}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Soundness Argument}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Potential Convincingness}{3}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Applying for persuade that God exists}{3}{subsection.2.5}
+\contentsline {section}{\numberline {3}Argument from the Design}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Inference to the best explanation}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}White's Analogy}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}The Fine-Tuning Argument}{4}{subsection.3.3}
+\contentsline {section}{\numberline {4}Against God: the Problem of Evil}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Omniscient, Omni-benevolent, Omnipotent God}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}The Problem of Evil}{5}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}This is the Best of All Possible Worlds}{5}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Terror is the Price of Freedom}{5}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}There is no Best Possible World}{5}{subsection.4.5}
+\contentsline {section}{\numberline {5}Pascal's Wager}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Epistemic and Practical Reasons for Belief}{5}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Pascal's Wager}{6}{subsection.5.2}
