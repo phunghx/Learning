@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.15)  21 SEP 2016 03:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.15)  21 SEP 2016 05:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -481,7 +481,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<figures/Understanding_Reality.png, id=147, 685.56125pt x 468.75125pt>
+<figures/Understanding_Reality.png, id=166, 685.56125pt x 468.75125pt>
 File: figures/Understanding_Reality.png Graphic file (type png)
 
 <use figures/Understanding_Reality.png>
@@ -493,7 +493,7 @@ Overfull \hbox (66.33992pt too wide) in paragraph at lines 32--33
 [][] 
  []
 
-[2 <./figures/Understanding_Reality.png>]
+[2 <./figures/Understanding_Reality.png>] [3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/omscmr.fd
@@ -501,34 +501,34 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
- [3] [4]
-[5]
-Overfull \hbox (33.11174pt too wide) in paragraph at lines 174--175
-[]\OT1/cmr/m/n/10 Expected value: $\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/
-m/it/10 option[]\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OM
-L/cmm/m/it/10 Outcome[]=option[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^C \OML/cmm
-/m/it/10 Value\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Outcome[]\OT1/cmr/m/n/10 )$ 
+ [4] [5]
+[6]
+Overfull \hbox (18.11174pt too wide) in paragraph at lines 175--176
+\OT1/cmr/m/n/10 Expected value: $\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/
+it/10 option[]\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 Outcome[]=option[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^C \OML/cmm/m
+/it/10 Value\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Outcome[]\OT1/cmr/m/n/10 )$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
-[6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (./Introduction_to_Philosophy.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 Package rerunfilecheck Info: File `Introduction_to_Philosophy.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: FCFF130277D9830BEC94D662368401C8;1553.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
+(rerunfilecheck)             Checksum: A6713E118243F20F929E27006835536F;1803.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 5379 strings out of 494501
- 79934 string characters out of 6167030
+ 5386 strings out of 494501
+ 80030 string characters out of 6167030
  163014 words of memory out of 5000000
- 8587 multiletter control sequences out of 15000+600000
+ 8590 multiletter control sequences out of 15000+600000
  7895 words of font info for 28 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,7n,28p,313b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,28p,477b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -541,10 +541,10 @@ blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1
 pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015basic/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Introduction_to_Philosophy.pdf (6 pages, 293522 bytes).
+Output written on Introduction_to_Philosophy.pdf (7 pages, 297007 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
