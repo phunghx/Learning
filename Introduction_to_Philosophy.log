@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.15)  21 SEP 2016 05:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.15)  24 SEP 2016 02:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -481,7 +481,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<figures/Understanding_Reality.png, id=166, 685.56125pt x 468.75125pt>
+<figures/Understanding_Reality.png, id=184, 685.56125pt x 468.75125pt>
 File: figures/Understanding_Reality.png Graphic file (type png)
 
 <use figures/Understanding_Reality.png>
@@ -510,22 +510,45 @@ cmm/m/it/10 Outcome[]=option[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^C \OML/cmm/m
 /it/10 Value\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Outcome[]\OT1/cmr/m/n/10 )$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+<figures/SufficientCondition.jpg, id=207, 803.0pt x 602.25pt>
+File: figures/SufficientCondition.jpg Graphic file (type jpg)
+
+<use figures/SufficientCondition.jpg>
+Package pdftex.def Info: figures/SufficientCondition.jpg used on input line 199
+.
+(pdftex.def)             Requested size: 241.50224pt x 219.99861pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/NecessaryCondition.jpg, id=208, 803.0pt x 602.25pt>
+File: figures/NecessaryCondition.jpg Graphic file (type jpg)
+
+<use figures/NecessaryCondition.jpg>
+Package pdftex.def Info: figures/NecessaryCondition.jpg used on input line 206.
+
+(pdftex.def)             Requested size: 241.50224pt x 219.99861pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+ [8 <./figures/SufficientCondition.jpg>] [9 <./figures/NecessaryCondition.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./Introduction_to_Philosophy.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `Introduction_to_Philosophy.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: A6713E118243F20F929E27006835536F;1803.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
+(rerunfilecheck)             Checksum: F24B5A8BC12B315205903E570C01AB43;2016.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  ) 
 Here is how much of TeX's memory you used:
- 5386 strings out of 494501
- 80030 string characters out of 6167030
- 163014 words of memory out of 5000000
- 8590 multiletter control sequences out of 15000+600000
+ 5409 strings out of 494501
+ 80518 string characters out of 6167030
+ 164256 words of memory out of 5000000
+ 8603 multiletter control sequences out of 15000+600000
  7895 words of font info for 28 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  29i,7n,28p,477b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -541,10 +564,10 @@ blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1
 pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015basic/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Introduction_to_Philosophy.pdf (7 pages, 297007 bytes).
+Output written on Introduction_to_Philosophy.pdf (9 pages, 403105 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 35 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
