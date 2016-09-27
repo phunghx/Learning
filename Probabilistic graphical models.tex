@@ -1,0 +1,132 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\title{Probabilistic Graphical Models}
+\author{Huynh Xuan Phung - Coursera}
+\date{ }
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,  %choose some color if you want links to stand out
+} 
+\begin{document}
+ 
+\maketitle
+ 
+\tableofcontents
+
+\chapter{Representation}
+
+\section{Introduction}
+Model 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/Models}
+\caption{Model is a declarative representation of our understanding of the world}
+\label{fig:models}
+\end{figure}
+
+It is important because the same representation, that same model can be used in the the context of one algorithms that might answer different kind of questions. Or the same question in more efficient way.
+
+We can construct methodologies the elicit these models from a human extrict, or learn from data or combination.
+
+Uncertainty
+
+--- Partial knowledges of state of the world
+
+--- Noisy observations
+
+--- Phenomena not covered by our model
+
+--- Inherent stochasticity
+
+Probability Theory
+
+--- Declarative representation with clear semantics
+
+--- Powerful reasoning patterns: conditioning decision making
+
+--- Established learning methods
+
+Complex Systems
+
+Graphical Models: Bayesian Networks, Markov Networks (directed or undirected graphs)
+
+Graphical Representation
+
+--- Intuitive and compact data structure
+
+--- Efficient reasoning using general purpose algorithms
+
+--- Sparse parameterization
+
+------ feasible elicitation : by hand
+
+------ learning from data automatically
+
+\subsection{Distribution}
+Joint Distribution: P(I,D,G)
+
+Conditioning: observation 1 value of variable ---$>$ Reduction ---$>$ Renormalization $P(I,D,g^1)$  ---$>$ $P(I,D|g^1)$
+
+
+Marginalization: $\sum_{I}P(I,D) = P(D)$ . Example: you have thrown two 6-sided dice, $D_1$ and $D_2$. $P(D_1,D_2)$ is a joint probability distribution. The probability that $D_2=1$ is equals to $\sum_{i=1}^{6}P(D_1 = i, D_2=1)$.
+
+\subsection{Factors}
+A factor is a function or table $\phi(X_1,...,X_k)$
+
+$\phi: Val(X_1,...,X_k) \rightarrow R$
+
+Scope = ${X_1,...,X_k}$
+
+Joint distribution is a factor
+
+Unnormalized measure is a factor
+
+Conditional Probability Distribution (CPD) is a factor P(G|I,D): G in columns while I,D in rows.
+
+Why factors?
+
+--- Fundamental building block for defining distributions in high-dimensional spaces
+
+--- Set of basic operations for manipulating these probability distributions
+
+\section{Bayesian Network (Directed Models)}
+\subsection{Semantics and Factorization}
+What does random variable depend on?
+
+Draw nodes, edges, each node with a factor is CPD (conditional probability distribution)
+
+A bayesian network is:
+
+--- A directed acyclic graph (DAG) G whose nodes represent the random variables
+
+--- For each node $X_i$ a CPD $P(X_i|Par_G(X_i))$
+
+The BN represent a joint distribution via the chain rule for Bayesian Networks
+
+$P(X_1,...,X_n) = \prod_{i} P(X_i|Par_G(X_i))$
+
+BN is a Legal distribution : $\sum P=1$ and $P>0$
+
+\subsection{Reasoning Pattern}
+Causal Reasoning: reasoning going down
+
+Evidential Reasoning: reasoning going up
+
+Inter-causal Reasoning: The probability of class is hard, if we observe the "C" grade and change the posterior probability of high intelligence is goes up
+
+
+
+
+
+
+
+
+
+
+ 
+\end{document}

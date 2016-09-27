@@ -1,0 +1,7 @@
+\contentsline {chapter}{\numberline {1}Representation}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{5}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Distribution}{6}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Factors}{6}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Bayesian Network (Directed Models)}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Semantics and Factorization}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Reasoning Pattern}{7}{subsection.1.2.2}
