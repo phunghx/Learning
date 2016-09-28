@@ -119,9 +119,51 @@ Evidential Reasoning: reasoning going up
 
 Inter-causal Reasoning: The probability of class is hard, if we observe the "C" grade and change the posterior probability of high intelligence is goes up
 
+\subsection{Flow of Probabilistic Influence}
+When can X influence Y?
 
+X $\rightarrow$ Y
 
+X $\leftarrow$ Y
 
+Active Trails: 
+
+A trail $X_1$ -- ... -- $X_k$ is active if: it has no v-structures $X_{i-1} \rightarrow X_i \leftarrow X_{i+1}$
+
+When can X influence Y given evidence about Z?
+
+A trail $X_1$ --- ... --- $X_k$ is active given Z if:
+
+--- for any v-structure $X_{i-1} \rightarrow X_i \leftarrow X_{i+1} $ we have that $X_i$ or one of its descendants $\in$ Z
+
+--- no other $X_i$ is in Z
+
+Assignment
+
+1. How many parameter to present a CPD. If X have m possibilities the P(X) needs m-1 independent parameters
+
+IF Y have k possibilities, Z have l possibilities then P(X|Y,Z) has (m-1)*k*l independent parameters.
+
+2. Inter-causal reasoning
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/bayesian_ex1}
+\caption{}
+\label{fig:bayesianex1}
+\end{figure}
+
+To calculate the required values, we can apply Bayes' rule. For instance,
+
+$\frac{P(A=1|T=1,P=1)=P(A=1,T=1,P=1)}{P(T=1,P=1)}$
+
+$=\frac{P(A=1,T=1,P=1)}{(P(A=0,T=1,P=1)+P(A=1,T=1,P=1))}$.
+
+We can then use the chain rule of Bayesian networks to substitute the correct values in, e.g.,
+
+$P(A=1,T=1,P=1)=P(P=1)*P(A=1)*P(T=1|P=1,A=1)$
+
+This example of inter-causal reasoning meshes well with common sense: if we see a traffic jam, the probability that there was a car accident is relatively high. However, if we also see that the president is visiting town, we can reason that the president's visit is the cause of the traffic jam; the probability that there was a car accident therefore drops correspondingly.
 
 
 
