@@ -67,7 +67,7 @@ Graphical Representation
 
 ------ learning from data automatically
 
-\subsection{Distribution}
+\subsection{Distribution:Marginalization,Conditioning }
 Joint Distribution: P(I,D,G)
 
 Conditioning: observation 1 value of variable ---$>$ Reduction ---$>$ Renormalization $P(I,D,g^1)$  ---$>$ $P(I,D|g^1)$
@@ -119,7 +119,7 @@ Evidential Reasoning: reasoning going up
 
 Inter-causal Reasoning: The probability of class is hard, if we observe the "C" grade and change the posterior probability of high intelligence is goes up
 
-\subsection{Flow of Probabilistic Influence}
+\subsection{Flow of Probabilistic Influence: active trail}
 When can X influence Y?
 
 X $\rightarrow$ Y
@@ -165,7 +165,115 @@ $P(A=1,T=1,P=1)=P(P=1)*P(A=1)*P(T=1|P=1,A=1)$
 
 This example of inter-causal reasoning meshes well with common sense: if we see a traffic jam, the probability that there was a car accident is relatively high. However, if we also see that the president is visiting town, we can reason that the president's visit is the cause of the traffic jam; the probability that there was a car accident therefore drops correspondingly.
 
+\section{Bayesian Networks: In-dependencies}
+\subsection{Conditional Independence}
 
+Independence
+
+For events $\alpha$, $\beta$, P satisfy independence if:
+
+--- $P(\alpha,\beta) = P(\alpha) * P(\beta)$
+
+--- $P(\alpha|\beta) = P(\alpha)$ 
+
+--- $P(\beta|\alpha) = P(\beta)$
+
+Conditional Independence
+
+For random variables X,Y,Z; P satisfy (X independence Y | Z) if
+
+--- $P(X,Y | Z) = P(X|Z) * P(Y|Z)$
+
+--- $P(X|Y,Z) = P(X|Z)$
+
+--- $P(Y|X,Z) = P(Y|Z)$
+
+--- $P(X,Y,Z) \propto \phi_1(X,Z) * \phi_2(Y,Z)$
+
+We need to check for all cases
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth, height=0.1\textheight]{./figures/independence}
+\caption{Example of student: independence}
+\label{fig:independence}
+\end{figure}
+
+S and G are dependent but conditionally independent given I. I and D are independent but conditionally dependent given G, which active the V-structure here
+
+
+
+\subsection{Independence in Bayesian Networks: d-separate, I-map}
+
+Flow of influence and d-separation
+
+X and Y are d-separated in G given Z if there is no active trail in G between X and Y given Z. $d-sep_G(X,Y|Z)$
+
+\textbf{Factorization to Independences: BNs}
+
+Theorem If P factorizes over G, and $d-sep_G(X,Y|Z)$ then P satisfies $(X\perp Y|Z)$.
+
+$P(S) = \sum_{I}P(I)P(S|I)$ (standard marginalization operation) because P(S,I) = P(I) * P(S|I)
+
+If P factorizes over G, then in P, any variable is independent of its non-descendants given its parents
+
+\textbf{I-maps}
+
+d-separation in G $\rightarrow$ P satisfies corresponding independence statement
+
+$I(G) = {(X \perp Y | Z): d-sep_G(X,Y | Z)}$
+
+Definition: If P satisfies I(G),we say that G is an I-map (in-dependency map) of P
+
+\textbf{Theorem}: If P factorizes over G, then G is an I-map for P
+
+\textbf{Theorem}: If G is an I-map for P, then P factorizes over G
+
+
+\subsection{Naive Bayes Model}
+
+Assumption: Given the class variable, each observed variable is independent of the other observed variables.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth, height=0.1\textheight]{./figures/naivebayes}
+\caption{Naive Bayes: $(X_i \perp X_j | C)$ for all $X_i,X_j$}
+\label{fig:naivebayes}
+\end{figure}
+
+Naive Bayes Classifier
+
+Bernoulli Naive Bayes: each observed variable is binary: 1 if appear and 0 otherwise
+
+Multinomial Naive Bayes for Text: values of each random variable is the actual word in each document
+
+
+
+\subsection{Assignment}
+
+If there is no active trails between A and D, then they are independent
+
+I-maps: if G is an I-map of P, all in-dependencies in G also in P. However, this does not mean that all in-dependencies in P also in G
+
+I-maps can also be defined directly on graphs as follow: Let I(G) be the set of in-dependencies encoded by a graph G. Then $G_1$ is and I-map for $G_2$ if $I(G_1) \subseteq I(G_2)$
+
+I-map is not a function
+
+\section{Bayesian Networks: Knowledge Engineering}
+
+\subsection{Medical Diagnosis}
+\subsection{Knowledge Engineering: Example SAMIAM}
+
+\subsection{Programming Assignment 1}
+
+Compute $P(A,B|C=C_i)$ means that observes the specific value of C and $P(C_i) = 1$ otherwise is 0
+
+--- Compute P(A,B,C)
+
+--- if $C_j \neq C_i$ then  $P(A,B,C_j) = 0$
+
+--- $M = \sum_{k} P(A,B,C_k)$
+
+--- Normalize M
 
 
 

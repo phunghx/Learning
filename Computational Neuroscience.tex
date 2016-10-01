@@ -110,12 +110,266 @@ Start out with random $RF_i$, and run your efficient coding algorithm on natural
 
 
 \section{The Electrical Personality of Neurons}
+Neuronal Zoo
+
+-- Visual cortex, Cerebellum, Optic Tectum
+
+Neron Doctrine: 
+
+The brain is broken into individual, discrete parts called neurons
+
+The shape of neuron varies in some general way form one area of the brain to another
+
+Dendrites are the inputs ends of the neuron, whereas axons are the outputs ends.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/neuron}
+\caption{Spikes form a neuron occur when the sum of inputs from neighboring neurons reaches a certain threshold}
+\label{fig:neuron}
+\end{figure}
+
+What is a Neuron?
+
+--- A leaky bag of charged liquid
+
+--- Contents of the neuron enclosed within a cell membrane
+
+--- Cell membrane is a lipid bilayers. Bilayer is impermeable to charged ion species such as $Na^+$, $Cl^-$ and $K^+$
+--- --- Ionic channels embedded in membrane allow icons to flow in or out
+
+--- Each neuron maintain a potential difference across its membrane
+
+--- --- Inside in about -70mV relative to outside
+
+--- --- [Na+] and [Cl-] higher outside; [K+] and organic anions [A-] higher inside
+
+--- --- Ionic pump maintains -70mV difference by expelling Na+ out and allowing K+ in
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/ionchanel}
+\caption{Neuron membrane}
+\label{fig:ionchanel}
+\end{figure}
+
+Ionic Channels: the Gate-keepers
+
+Ionic channels in membrane are proteins that are selective and allow only specific ions to pass through
+
+Ionic channels are gated:
+
+--- Voltage-gated: Probability of opening depends on membrane voltage
+
+--- Chemically-gated: Binding to a chemical cause channel to open
+
+--- Mechanically-gated: Sensitive to pressure or stretch 
+
+Gate Channels allow Neuronal Signaling
+
+--- Input form other neurons $\rightarrow$ chemically-gate channels (at synapses) open $\rightarrow$ Changes in local membrane potential
+
+--- This in turn cause opening/closing of voltage-gate channels in dendrites, body, and axon, resulting in depolarization (positive change in voltage) or hyper-polarization (negative change in voltage)
+
+Strong enough depolarization cause a spike or action potential
+
+The Output of a Neuron: Action Potential (Spike)
+
+Voltage-gated channels cause action potentials (spikes)
+
+1. Strong depolarization opens Na+ channels, causing rapid Na+ influx and more channels to open until they inactivate
+
+2. K+ outflux restores membrane potential
+
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/spikes}
+\caption{spikes time}
+\label{fig:spikes}
+\end{figure}
+
+
+Active Wiring: Myelination of Axons
+
+Myelin due to oligodendrocytes (glial cells) wrap axons and enable fast long-range spike communication
+
+--- Action potential hops form one non-myelinated region (node of Ranvier) the the next (saltatory conduction)
+
+--- Active wire allows lossless signal propagation
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/myelin}
+\caption{Myelination of Axons}
+\label{fig:myelin}
+\end{figure}
+
+
 
 \section{Making Connections: Synapses}
 
+A synapse is a connection or junction between 2 neurons
+
+--- Electrical synapses use gap junctions (fast connection)
+
+--- Chemical synapses use neurotransmitters (basic for learning and memory)
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth, height=0.2\textheight]{./figures/synapse}
+\caption{Synapse}
+\label{fig:synapse}
+\end{figure}
+
+
+Synapses can be \textbf{Excitatory} or \textbf{Inhibitory}
+
+\textbf{An Excitatory synapse:}
+
+Input spike $\rightarrow$ Neurotransmitter release (e.g, Glutamate) $\rightarrow$ Binds to ion channel receptors $\rightarrow$ Ion channels open $\rightarrow$ Na+ influx $\rightarrow$ Depolarization due to EPSP (excitatory post-synaptic potential)
+
+\textbf{Synapse Doctrine}
+
+Synapses are the basic for memory and learning
+
+\textbf{How do brain Learn? Synaptic Plasticity}: If the neuron A repeatedly takes part in firing neuron B, then the synapse form A to B is strengthened
+
+\textbf{Long term Potentiation (LTP)}
+
+LTP = Experimentally observed \textbf{increase} in synaptic strength that lasts for hours or days
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/LTP}
+\caption{Long Term Potentiation (LTP)}
+\label{fig:LTP}
+\end{figure}
+
+\textbf{Long Term Depression (LTD)}
+
+LTD = Experimentally observed \textbf{decrease} in synaptic strength that lasts for hours or days
+
+
+
+\textbf{Synaptic Plasticity depends on Spike Timing}
+
+LTP/ LTD depends on relative timing of input and output spikes
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth, height=0.3\textheight]{./figures/LTP1}
+\caption{relative timing of LTP and LTD}
+\label{fig:LTP1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth, height=0.3\textheight]{./figures/LTPLTD2}
+\caption{Spike-Timing Dependent Plasticity (STDP)}
+\label{fig:LTPLTD2}
+\end{figure}
+
+
+
 \section{Time to Network: Brain Areas and Their Function}
 
+\textbf{Organization and Function of the Nervous System}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/nervoussystem}
+\caption{Nervous System}
+
+\label{fig:nervoussystem}
+\end{figure}
+
+ \textbf{Peripheral Nervous System(PNS)}
  
+ \textbf{Somatic}: Nerves connecting to voluntary skeletal muscles and sensory receptors
+ 
+ --- Afferent Nerve Fibers (incoming): Axons that carry info away form the periphery to the CNS
+ 
+ --- Efferent Nerve Fibers (outgoing): Axons that carry info from the CNS outward to the periphery.
+ 
+ \textbf{Autonomic}: Nerves that connect to the heart, blood vessels, smooth muscles
+ 
+ \textbf{Central Nervous system (CNS)}
+ 
+ CNS = Spinal Cord + Brain
+ 
+ \textbf{Spinal Cord}
+ 
+ --- Local feedback loops controls reflexes (reflex arcs)
+ 
+ --- Descending motor control signals from the brain active spinal motor neurons
+ 
+ --- Ascending sensory axons convey sensory information form muscles and skin back to the brain
+ 
+ \textbf{Major Brain Regions: The Hindbrain}
+ 
+ \begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/hindbrain}
+\caption{Hindbrain}
+\label{fig:hindbrain}
+\end{figure}
+
+\textbf{Major Brain Regions: Midbrain and Retic. Formation}
+
+\textbf{Midbrain}: Eye movements, visual and auditory reflexes
+
+\textbf{Reticular Formation}: Modulates muscle reflexes, breathing and pain perception. Also regulates sleep, wakefulness and arousal
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/midbrain}
+\caption{Midbrain and Retic. Formation}
+\label{fig:midbrain}
+\end{figure}
+
+\textbf{Major Brain Regions: Thalamus and Hypothalamus}
+
+\textbf{Thalamus}: Relay station for all sensory info (except smell) to the cortex, regulates sleep/wakefulness
+
+\textbf{Hypothalamus}: Regulates basic needs: Fighting, Fleeing, Feeding and Mating
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/Thalamus}
+\caption{Thalamus and Hypothalamus}
+\label{fig:Thalamus}
+\end{figure}
+
+ 
+\textbf{Major Brain Region: THe Cerebrum}
+
+Consists of: Cerebral cortex, basal ganglia, hippocampus, and amygdala
+
+Involved in perception and motor control, cognitive functions, emotion, memory, and learning
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/cerebrum}
+\caption{Cerebrum}
+\label{fig:cerebrum}
+\end{figure}
+
+
+\textbf{Cerebral Cortex}: A layered Sheet of Neurons
+
+Convoluted surface of cerebrum, about 1/8 of an inch thick
+
+Six layers of neurons
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/cerabral}
+\caption{Cerebral Cortex}
+\label{fig:cerabral}
+\end{figure}
+
+\pagebreak
 
  
 \end{document}
