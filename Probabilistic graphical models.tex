@@ -276,7 +276,255 @@ Compute $P(A,B|C=C_i)$ means that observes the specific value of C and $P(C_i) =
 --- Normalize M
 
 
+\section{Template Models}
+Same model that can resolve multiple problems
 
+Sharing between models + within models $\rightarrow$ reuse parameters
+
+Template variable $X(U_1, ..., U_k)$ is instantiated (duplicated) multiple times
+
+Template Models: 
+
+--- Languages that specify how variables inherit dependency model from template
+
+--- Dynamic Bayesian Networks: temporal
+
+--- Object-relational models: Directed and Undirected models
+
+\section{Temporal Models - DBNs}
+
+Distributions over Trajectories
+
+--- Pick time granularity $\triangle$
+
+--- $X^{(t)}$ - variable X at time t$\triangle$ 
+
+--- $X^{t:t'} = {X^{(t)}, ..., X^{(t')}} (t \leq t')$
+
+--- Want to represent $P(X^{(t:t')})$ for any t, t'
+
+\textbf{Markov Assumption}: time flows forward
+
+$P(X^{(0:T)}) = P(X^{(0)}) * \prod_{t=0}^{T-1} P(X^{(t+1)} | X^{(0:t)})$
+
+Assumption: $(X^{(t+1)} \perp X^{(0:t-1)} | X^{(t)})$ : next step independent to the past if observed current state
+
+Go back chain rules: $P(X^{(0:T)}) = P(X^{(0)}) * \prod_{t=0}^{T-1} P(X^{(t+1)} | X^{(t)})$
+
+\textbf{Time Invariance}
+
+--- Template probability model $P(X'|X)$
+
+--- For all t:
+
+------ $P(X^{(t+1)}| X^{(t)}) = P(X'|X)$ : for example: traffic time of day, week
+
+
+\textbf{Template Transition Model}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/templatetransition}
+\caption{Template Transition Model}
+\label{fig:templatetransition}
+\end{figure}
+
+Based on network fragment, we need to compute the condition 
+
+$P = P(W',V',L',F',O' | W,V,L,F)$
+
+We have CPD: $P = P(W'|W) * P(V'|V,W) * P(L'|L,V) * P(F'|F,W) *P(O'|F',L')$
+
+We have dependence within (intra-time slice) and between(inter time slice).
+
+\textbf{Initial State Distribution}: use chain rule
+
+\textbf{Ground Bayesian Network}: copy the present of time 0 to time 1
+
+\textbf{2 time-slice Bayesian Network}
+
+--- A transition model (2TBN) over $X_1, ..., X_n$ is specified as as BN fragment such that:
+
+------ The nodes includes $X'_1, ... , X'_n$ and a subset $X_1,..., X_n$
+
+------ Only the nodes $X'_1,...,X'_n$ have parents and a CPD
+
+--- The 2 TBN defines a conditional distribution
+
+------ $P(X'|X) = \prod_{i=1}^{n} P(X'_i | Pa_{X'_i})$
+
+\textbf{Dynamic Bayesian Network}
+
+--- A dynamic Bayesian network (DBN) over $X_1,...,X_n$ is defined by a
+
+------ 2TBN $BN_{\rightarrow}$ over $X_1,..., X_n$
+
+------ a Bayesian network $BN^{(0)}$ over $X_1^{(0)},...,X_n^{(0)}$
+
+\textbf{Ground Network}
+
+--- For a trajectory over 0,...,T, ground (unrolled network)
+
+------ The dependency model for $X_1^{(0)},...,X_n^{(0)}$ is copied from $BN^{(0)}$
+
+------ The dependency model for $X_1^{(t)},...,X_n^{(t)}$ for all $t > 0$ is copied form $BN_{\rightarrow}$
+
+
+
+\section{Temporal Models - HMMs}
+
+Hidden Markov Models
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/markovmodel}
+\caption{Unrolled network}
+\label{fig:markovmodel}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/robot}
+\caption{}
+\label{fig:robot}
+\end{figure}
+
+HMM: self-transition (different with Bayesian Network): subclass of DBNs
+
+\section{Plate Models}
+
+Objects of the same type
+
+\subsection{Modeling Repetition}
+
+Box is put around Outcome variable: plate
+
+Parameters outside of the plate (CPD)
+
+For example: model of university with multiple students
+
+\textbf{Nested Plates}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/nestedplate}
+\caption{Nested Plates}
+\label{fig:nestedplate}
+\end{figure}
+
+\textbf{Overlapping Plates}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/ovelapping}
+\caption{Overlapping Model}
+\label{fig:ovelapping}
+\end{figure}
+
+
+\section{Plate Dependency Model}
+
+For a template variable $A(U_1,...,U_k)$:
+
+--- Template parents $B_i(U_1), ..., B_m(U_m)$
+
+--- CPD $P(A|B_1,...,B_m)$
+
+\textbf{Ground Network}
+
+\textbf{Plate Dependency Model}
+
+Template for an infinite set of BNs, each induced by a difference set of domain objects
+
+Parameters and structures are reused within a BN and across different BNs
+
+Models encode correlation across multiple objects, allowing collective inference
+
+\section{Structured CPDs}
+General CPD
+
+--- CPD $P(X|Y_1,...,Y_k)$ specifies distribution over X for each assignment $y_1,...,y_k$
+
+--- can use any function to specify a factor $\phi(X,Y_1,...,Y_k)$ such that
+
+------ $\sum_{X}\phi(x,y_1,...,y_k) = 1$ for all $y_1,...,y_k$
+
+\textbf{Context-Specific Independence}
+
+$P \models (X \perp_C Y | Z,c)$ assignment to c
+
+------ $P(X,Y | Z,c) = P(X|Z,c)P(Y|Z,c)$
+
+------ $P(X | Y, Z,c) = P(X|Z,c)$
+
+------ $P(Y | X, Z,c) = P(Y|Z,c)$
+
+
+\section{Deterministic CPDs}
+
+non-tabular CPD arises when a variable X is deterministic function of its parents $Pa_X$. There is a function f: $Val(Pa_X) \rightarrow Val(X)$ such that
+
+$P(x|pa_X) =1$ only $x=f(pa_X)$, otherwise is 0
+
+For example, the the case of binary-valued variables, X might be the "or" of its parents. In a continuous domain, we wight want to assert in $P(X|Y,Z)$ that X is equal Y+Z
+
+
+
+\section{Tree- structured CPDs}
+
+
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/treeCPD}
+\caption{Tree-structured CPD}
+\label{fig:treeCPD}
+\end{figure}
+
+\textbf{context-specific in-dependencies}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/contextCPD}
+\caption{context-specific in-dependencies}
+\label{fig:contextCPD}
+\end{figure}
+
+\section{Independence of Causal Influence}
+
+\textbf{Noisy OR CPD}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/noisyCPD}
+\caption{Noisy OR CPD}
+\label{fig:noisyCPD}
+\end{figure}
+
+\subsection{Independence of Causal Influence}
+
+\subsection{Sigmoid CPD}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/sigmoidCPD}
+\caption{Sigmoid CPD}
+\label{fig:sigmoidCPD}
+\end{figure}
+
+\section{Continue Variables}
+
+Use Gaussian model
+
+\section{Exercise: Tree CPD - context specific In-dependencies}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/treeCPD2}
+\caption{Which are context-specific independences?}
+\label{fig:treeCPD2}
+\end{figure}
+Base on Fig \ref{fig:treeCPD2}: $(E \perp_c D | b^1)$ and $(E \perp_c D,B | a^1)$
 
  
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.4)  1 OCT 2016 01:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.4)  4 OCT 2016 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -491,14 +491,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
-<figures/Models.png, id=130, 906.38625pt x 461.725pt>
+<figures/Models.png, id=215, 906.38625pt x 461.725pt>
 File: figures/Models.png Graphic file (type png)
  <use figures/Models.png>
 Package pdftex.def Info: figures/Models.png used on input line 27.
 (pdftex.def)             Requested size: 241.49895pt x 123.0188pt.
 
 [5 <./figures/Models.png>] [6]
-<figures/bayesian_ex1.png, id=147, 808.01875pt x 793.96625pt>
+<figures/bayesian_ex1.png, id=232, 808.01875pt x 793.96625pt>
 File: figures/bayesian_ex1.png Graphic file (type png)
 
 <use figures/bayesian_ex1.png>
@@ -508,7 +508,7 @@ Package pdftex.def Info: figures/bayesian_ex1.png used on input line 151.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] <./figures/independence.png, id=155, 469.755pt x 231.86626pt>
+[7] <./figures/independence.png, id=239, 469.755pt x 231.86626pt>
 File: ./figures/independence.png Graphic file (type png)
 
 <use ./figures/independence.png>
@@ -530,49 +530,131 @@ m/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 S\OMS/cmsy/m/n/10 j\OML/cmm/m/it/1
 )
  []
 
-<./figures/naivebayes.png, id=162, 536.75531pt x 165.61874pt>
+<./figures/naivebayes.png, id=246, 536.75531pt x 165.61874pt>
 File: ./figures/naivebayes.png Graphic file (type png)
 
 <use ./figures/naivebayes.png>
 Package pdftex.def Info: ./figures/naivebayes.png used on input line 238.
 (pdftex.def)             Requested size: 241.49669pt x 55.00308pt.
- [9 <./figures/independence.png> <./figures/naivebayes.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
+ [9 <./figures/independence.png> <./figures/naivebayes.png>] [10]
+<./figures/templatetransition.png, id=258, 481.04718pt x 341.77687pt>
+File: ./figures/templatetransition.png Graphic file (type png)
+
+<use ./figures/templatetransition.png>
+Package pdftex.def Info: ./figures/templatetransition.png used on input line 32
+7.
+(pdftex.def)             Requested size: 241.49895pt x 171.58162pt.
+ [11 <./figures/templatetransition.png>]
+<./figures/markovmodel.png, id=266, 793.46437pt x 181.42781pt>
+File: ./figures/markovmodel.png Graphic file (type png)
+
+<use ./figures/markovmodel.png>
+Package pdftex.def Info: ./figures/markovmodel.png used on input line 380.
+(pdftex.def)             Requested size: 241.49895pt x 55.21774pt.
+
+<./figures/robot.png, id=267, 867.99281pt x 486.31688pt>
+File: ./figures/robot.png Graphic file (type png)
+
+<use ./figures/robot.png>
+Package pdftex.def Info: ./figures/robot.png used on input line 387.
+(pdftex.def)             Requested size: 241.49895pt x 135.307pt.
+ [12 <./figures/markovmodel.png> <./figures/robot.png>] <./figures/nestedplate.
+png, id=274, 834.86906pt x 486.31688pt>
+File: ./figures/nestedplate.png Graphic file (type png)
+
+<use ./figures/nestedplate.png>
+Package pdftex.def Info: ./figures/nestedplate.png used on input line 410.
+(pdftex.def)             Requested size: 241.49895pt x 140.67209pt.
+
+<./figures/ovelapping.png, id=275, 877.77937pt x 363.60844pt>
+File: ./figures/ovelapping.png Graphic file (type png)
+
+<use ./figures/ovelapping.png>
+Package pdftex.def Info: ./figures/ovelapping.png used on input line 419.
+(pdftex.def)             Requested size: 241.49895pt x 100.03424pt.
+ [13 <./figures/nestedplate.png> <./figures/ovelapping.png>] <./figures/treeCPD
+.png, id=283, 900.36375pt x 379.4175pt>
+File: ./figures/treeCPD.png Graphic file (type png)
+
+<use ./figures/treeCPD.png>
+Package pdftex.def Info: ./figures/treeCPD.png used on input line 480.
+(pdftex.def)             Requested size: 241.49895pt x 101.76672pt.
+
+<./figures/contextCPD.png, id=284, 813.79031pt x 328.22626pt>
+File: ./figures/contextCPD.png Graphic file (type png)
+
+<use ./figures/contextCPD.png>
+Package pdftex.def Info: ./figures/contextCPD.png used on input line 489.
+(pdftex.def)             Requested size: 241.49895pt x 97.40186pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/noisyCPD.png, id=285, 873.2625pt x 476.53032pt>
+File: ./figures/noisyCPD.png Graphic file (type png)
+
+<use ./figures/noisyCPD.png>
+Package pdftex.def Info: ./figures/noisyCPD.png used on input line 500.
+(pdftex.def)             Requested size: 241.49895pt x 131.78427pt.
+ [14 <./figures/treeCPD.png>]
+<./figures/sigmoidCPD.png, id=292, 909.3975pt x 460.72125pt>
+File: ./figures/sigmoidCPD.png Graphic file (type png)
+
+<use ./figures/sigmoidCPD.png>
+Package pdftex.def Info: ./figures/sigmoidCPD.png used on input line 511.
+(pdftex.def)             Requested size: 241.49895pt x 122.34363pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/treeCPD2.png, id=293, 346.29375pt x 259.97125pt>
+File: ./figures/treeCPD2.png Graphic file (type png)
+
+<use ./figures/treeCPD2.png>
+Package pdftex.def Info: ./figures/treeCPD2.png used on input line 523.
+(pdftex.def)             Requested size: 241.49895pt x 181.30426pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 530.
+[15 <./figures/contextCPD.png> <./figures/noisyCPD.png>] [16 <./figures/sigmoid
+CPD.png> <./figures/treeCPD2.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 530.
  (./Probabilistic graphical models.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 530.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 530.
 Package rerunfilecheck Info: File `"Probabilistic graphical models".out' has no
 t changed.
-(rerunfilecheck)             Checksum: 5E8DF845F82DEC48D1B70F1559E13D55;1318.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
+(rerunfilecheck)             Checksum: B53E705CEDE6B37F10458FF212BB066A;2319.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 530.
  ) 
 Here is how much of TeX's memory you used:
- 5402 strings out of 494985
- 79543 string characters out of 6180357
- 160290 words of memory out of 5000000
- 8542 multiletter control sequences out of 15000+600000
+ 5506 strings out of 494985
+ 81510 string characters out of 6180357
+ 163756 words of memory out of 5000000
+ 8606 multiletter control sequences out of 15000+600000
  9460 words of font info for 33 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 29i,7n,28p,413b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,28p,413b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b>
-Output written on "Probabilistic graphical models.pdf" (10 pages, 561046 bytes)
-.
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+l10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Probabilistic graphical models.pdf" (16 pages, 2893796 bytes
+).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 

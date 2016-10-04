@@ -15,3 +15,17 @@
 \BOOKMARK [2][-]{subsection.1.4.1}{Medical Diagnosis}{section.1.4}% 15
 \BOOKMARK [2][-]{subsection.1.4.2}{Knowledge Engineering: Example SAMIAM}{section.1.4}% 16
 \BOOKMARK [2][-]{subsection.1.4.3}{Programming Assignment 1}{section.1.4}% 17
+\BOOKMARK [1][-]{section.1.5}{Template Models}{chapter.1}% 18
+\BOOKMARK [1][-]{section.1.6}{Temporal Models - DBNs}{chapter.1}% 19
+\BOOKMARK [1][-]{section.1.7}{Temporal Models - HMMs}{chapter.1}% 20
+\BOOKMARK [1][-]{section.1.8}{Plate Models}{chapter.1}% 21
+\BOOKMARK [2][-]{subsection.1.8.1}{Modeling Repetition}{section.1.8}% 22
+\BOOKMARK [1][-]{section.1.9}{Plate Dependency Model}{chapter.1}% 23
+\BOOKMARK [1][-]{section.1.10}{Structured CPDs}{chapter.1}% 24
+\BOOKMARK [1][-]{section.1.11}{Deterministic CPDs}{chapter.1}% 25
+\BOOKMARK [1][-]{section.1.12}{Tree- structured CPDs}{chapter.1}% 26
+\BOOKMARK [1][-]{section.1.13}{Independence of Causal Influence}{chapter.1}% 27
+\BOOKMARK [2][-]{subsection.1.13.1}{Independence of Causal Influence}{section.1.13}% 28
+\BOOKMARK [2][-]{subsection.1.13.2}{Sigmoid CPD}{section.1.13}% 29
+\BOOKMARK [1][-]{section.1.14}{Continue Variables}{chapter.1}% 30
+\BOOKMARK [1][-]{section.1.15}{Exercise: Tree CPD - context specific In-dependencies}{chapter.1}% 31
