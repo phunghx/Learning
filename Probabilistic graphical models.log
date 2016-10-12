@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.4)  4 OCT 2016 15:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.4)  11 OCT 2016 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -617,21 +617,29 @@ Package pdftex.def Info: ./figures/treeCPD2.png used on input line 523.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 530.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
 [15 <./figures/contextCPD.png> <./figures/noisyCPD.png>] [16 <./figures/sigmoid
 CPD.png> <./figures/treeCPD2.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 530.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
  (./Probabilistic graphical models.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 530.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 530.
-Package rerunfilecheck Info: File `"Probabilistic graphical models".out' has no
-t changed.
-(rerunfilecheck)             Checksum: B53E705CEDE6B37F10458FF212BB066A;2319.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 530.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
+
+
+Package rerunfilecheck Warning: File `"Probabilistic graphical models".out' has
+ changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Probabilistic graphical models".ou
+t':
+(rerunfilecheck)             Before: B53E705CEDE6B37F10458FF212BB066A;2319
+(rerunfilecheck)             After:  9E4FF9C0F11EAEFF7A863EB5C2D42923;2401.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
  ) 
 Here is how much of TeX's memory you used:
- 5506 strings out of 494985
- 81510 string characters out of 6180357
+ 5507 strings out of 494985
+ 81522 string characters out of 6180357
  163756 words of memory out of 5000000
  8606 multiletter control sequences out of 15000+600000
  9460 words of font info for 33 fonts, out of 8000000 for 9000
@@ -650,11 +658,11 @@ s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 l10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Probabilistic graphical models.pdf" (16 pages, 2893796 bytes
+Output written on "Probabilistic graphical models.pdf" (16 pages, 2894143 bytes
 ).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 63 named destinations out of 1000 (max. 500000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 64 named destinations out of 1000 (max. 500000)
  319 words of extra memory for PDF output out of 10000 (max. 10000000)
 

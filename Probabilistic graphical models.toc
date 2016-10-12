@@ -29,3 +29,4 @@
 \contentsline {subsection}{\numberline {1.13.2}Sigmoid CPD}{15}{subsection.1.13.2}
 \contentsline {section}{\numberline {1.14}Continue Variables}{15}{section.1.14}
 \contentsline {section}{\numberline {1.15}Exercise: Tree CPD - context specific In-dependencies}{15}{section.1.15}
+\contentsline {section}{\numberline {1.16}Markov Networks: Undirected Models}{16}{section.1.16}
