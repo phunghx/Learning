@@ -369,13 +369,127 @@ Six layers of neurons
 \label{fig:cerabral}
 \end{figure}
 
-\pagebreak
+\chapter{Neural Code}
+\section{Recording form the brain}
+Encoding: stimulus cause a pattern of response
 
+Decoding: reponse tell as about the stimulus
 
-\section{Neural Code}
-\subsection{Recording form the brain}
+$P(response | stimulus) $: encoding
 
+$P(stimulus | response)$ decoding
 
+What is the response? stimulus and the relationship?
+
+\section{Constructing response models:Linear response}
+
+\textbf{Linear response }
+
+$r(t) = \phi s(t)$
+
+Linear filter:  $r(t) = \sum_{k=0}^{n} s_{t-k} f_k$ time at t, backward k
+
+Linear properties: f(a*x) = a*f(x), f(x+y+z) = f(x) + f(y) + f(z)
+
+\subsection{Spatial filtering}
+
+Convolution filter
+
+\subsection{Spatio-temporal filtering}
+
+3D convolution 
+
+\section{Feature selection}
+
+\subsection{How build the model}
+
+$P(response|stimulus)$ 
+
+\subsection{Dimensionality reduction}
+
+Start with a very high dimensional description and pick out a small set of relevant dimension
+
+\subsection{What is the right stimulus to use?}
+ 
+ $P(response|stimulus) \rightarrow P(response | s_1, s_2,...,s_n)$
+ 
+ One common and useful method id to use \textbf{Gaussian white noise}
+ 
+ \subsection{Linear filtering}
+ 
+ Linear filtering = convolution = project
+ 
+ \subsection{nonlinear input/output function}
+ 
+ $P(spike|s_1) = P(s_1|spike) *P(spike) / P(s_1)$ (Bayes' ryle)
+ 
+ \subsection{Linear and non-linear}
+ 
+ \section{Variability}
+ 
+ \subsection{When choose the best turning curve}
+ 
+ Introducing the Kullback-Leibler divergence
+ 
+ $D_{KL} (P(s), Q(s)) = \int ds P(s) log_2 P(s) / Q(s) $
+ 
+ Goodness measure: $D_{KL} (P(s_f|spike), P(s_f))$ maximize
+ 
+ Maximize $D_{KL}$ between spike-conditional and prior distributions = maximize mutual information between stimulus and spike
+ 
+ \subsection{Finding relevant features}
+ 
+ \begin{itemize}
+ 	\item{Single filter determined by the conditional average}
+ 	\item{A family of filters derived using PCA}
+ 	\item{Information theoretic methods use the whole distribution}
+ \end{itemize}
+ 
+ \subsection{Modeling the noise}
+ 
+ \subsection{Binomial spiking}
+ 
+ Time interval $\triangle$T, n = T / $\triangle$T
+ 
+ Distribution: $P_n[k] = p^k(1-p)^{n-k}$
+ 
+ Mean: $<k> = n*p$
+ 
+ Variance: Var(k) = n*p*(1-p)
+ 
+ \subsection{Poisson spiking}
+ 
+ r = P / $\triangle$t : neuron's mean firing rate (spike/second)
+ 
+ k: number of spikes
+
+Distribution $P_T[k] = (rT)^k exp(-rT)/k!$ 
+
+Mean: $<k> = rT$
+
+Variance: Var(k) = rT
+
+Fano factor  F= 1
+
+Interval distribution P(T) = r exp(-rT)
+
+\subsection{The generalized linear model}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/linearmodel}
+\caption{The generalized linear model}
+\label{fig:linearmodel}
+\end{figure}
+
+Cooperate
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/twoneuron}
+\caption{Cooperate of neurons}
+\label{fig:twoneuron}
+\end{figure}
 
  
 \end{document}

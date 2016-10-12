@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.15)  1 OCT 2016 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.15)  7 OCT 2016 02:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -496,7 +496,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
 
-<figures/ReceptiveField_Retina.png, id=88, 670.505pt x 346.29375pt>
+<figures/ReceptiveField_Retina.png, id=203, 670.505pt x 346.29375pt>
 File: figures/ReceptiveField_Retina.png Graphic file (type png)
 
 <use figures/ReceptiveField_Retina.png>
@@ -507,14 +507,14 @@ Package pdftex.def Info: figures/ReceptiveField_Retina.png used on input line 5
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] <figures/ReceptiveField_V1.png, id=95, 655.44875pt x 256.96pt>
+[5] <figures/ReceptiveField_V1.png, id=210, 655.44875pt x 256.96pt>
 File: figures/ReceptiveField_V1.png Graphic file (type png)
 
 <use figures/ReceptiveField_V1.png>
 Package pdftex.def Info: figures/ReceptiveField_V1.png used on input line 66.
 (pdftex.def)             Requested size: 241.49895pt x 94.67769pt.
 
-<figures/mechanistic_v1.png, id=96, 624.3325pt x 344.28625pt>
+<figures/mechanistic_v1.png, id=211, 624.3325pt x 344.28625pt>
 File: figures/mechanistic_v1.png Graphic file (type png)
 
 <use figures/mechanistic_v1.png>
@@ -524,9 +524,10 @@ Package pdftex.def Info: figures/mechanistic_v1.png used on input line 81.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/V1Cell.png, id=97, 390.45876pt x 262.9825pt>
+<figures/V1Cell.png, id=212, 390.45876pt x 262.9825pt>
 File: figures/V1Cell.png Graphic file (type png)
- <use figures/V1Cell.png>
+
+<use figures/V1Cell.png>
 Package pdftex.def Info: figures/V1Cell.png used on input line 90.
 (pdftex.def)             Requested size: 241.49895pt x 162.65419pt.
 
@@ -535,14 +536,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6 <./figures/ReceptiveField_Retina.png> <./figures/ReceptiveField_V1.png>]
 [7 <./figures/mechanistic_v1.png> <./figures/V1Cell.png>]
-<./figures/neuron.png, id=119, 675.27281pt x 450.9347pt>
+<./figures/neuron.png, id=234, 675.27281pt x 450.9347pt>
 File: ./figures/neuron.png Graphic file (type png)
 
 <use ./figures/neuron.png>
 Package pdftex.def Info: ./figures/neuron.png used on input line 127.
 (pdftex.def)             Requested size: 241.49895pt x 161.26297pt.
 
-<./figures/ionchanel.png, id=120, 252.19218pt x 356.83313pt>
+<./figures/ionchanel.png, id=235, 252.19218pt x 356.83313pt>
 File: ./figures/ionchanel.png Graphic file (type png)
 
 <use ./figures/ionchanel.png>
@@ -553,7 +554,7 @@ Package pdftex.def Info: ./figures/ionchanel.png used on input line 151.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./figures/neuron.png>]
-<./figures/spikes.png, id=127, 536.0025pt x 284.56313pt>
+<./figures/spikes.png, id=242, 536.0025pt x 284.56313pt>
 File: ./figures/spikes.png Graphic file (type png)
 
 <use ./figures/spikes.png>
@@ -564,14 +565,14 @@ Package pdftex.def Info: ./figures/spikes.png used on input line 188.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9 <./figures/ionchanel.png>]
-<./figures/myelin.png, id=133, 641.39626pt x 237.13594pt>
+<./figures/myelin.png, id=248, 641.39626pt x 237.13594pt>
 File: ./figures/myelin.png Graphic file (type png)
 
 <use ./figures/myelin.png>
 Package pdftex.def Info: ./figures/myelin.png used on input line 204.
 (pdftex.def)             Requested size: 241.49895pt x 89.28397pt.
 
-<./figures/synapse.png, id=134, 593.21625pt x 269.50688pt>
+<./figures/synapse.png, id=249, 593.21625pt x 269.50688pt>
 File: ./figures/synapse.png Graphic file (type png)
 
 <use ./figures/synapse.png>
@@ -581,7 +582,7 @@ Package pdftex.def Info: ./figures/synapse.png used on input line 221.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/LTP.png, id=135, 509.65407pt x 283.81032pt>
+<./figures/LTP.png, id=250, 509.65407pt x 283.81032pt>
 File: ./figures/LTP.png Graphic file (type png)
  <use ./figures/LTP.png>
 Package pdftex.def Info: ./figures/LTP.png used on input line 245.
@@ -591,7 +592,7 @@ Package pdftex.def Info: ./figures/LTP.png used on input line 245.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10 <./figures/spikes.png> <./figures/myelin.png>]
-<./figures/LTP1.png, id=142, 632.3625pt x 308.65312pt>
+<./figures/LTP1.png, id=257, 632.3625pt x 308.65312pt>
 File: ./figures/LTP1.png Graphic file (type png)
 
 <use ./figures/LTP1.png>
@@ -601,7 +602,7 @@ Package pdftex.def Info: ./figures/LTP1.png used on input line 262.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/LTPLTD2.png, id=143, 394.47375pt x 349.305pt>
+<./figures/LTPLTD2.png, id=258, 394.47375pt x 349.305pt>
 File: ./figures/LTPLTD2.png Graphic file (type png)
 
 <use ./figures/LTPLTD2.png>
@@ -611,7 +612,7 @@ Package pdftex.def Info: ./figures/LTPLTD2.png used on input line 269.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/nervoussystem.png, id=144, 679.78969pt x 362.10281pt>
+<./figures/nervoussystem.png, id=259, 679.78969pt x 362.10281pt>
 File: ./figures/nervoussystem.png Graphic file (type png)
 
 <use ./figures/nervoussystem.png>
@@ -622,14 +623,14 @@ Package pdftex.def Info: ./figures/nervoussystem.png used on input line 281.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11 <./figures/synapse.png> <./figures/LTP.png>]
-<./figures/hindbrain.png, id=151, 678.28406pt x 377.91188pt>
+<./figures/hindbrain.png, id=266, 678.28406pt x 377.91188pt>
 File: ./figures/hindbrain.png Graphic file (type png)
 
 <use ./figures/hindbrain.png>
 Package pdftex.def Info: ./figures/hindbrain.png used on input line 313.
 (pdftex.def)             Requested size: 241.49895pt x 134.54889pt.
 
-<./figures/midbrain.png, id=152, 363.60844pt x 329.73187pt>
+<./figures/midbrain.png, id=267, 363.60844pt x 329.73187pt>
 File: ./figures/midbrain.png Graphic file (type png)
 
 <use ./figures/midbrain.png>
@@ -639,7 +640,7 @@ Package pdftex.def Info: ./figures/midbrain.png used on input line 326.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/Thalamus.png, id=153, 375.65344pt x 329.73187pt>
+<./figures/Thalamus.png, id=268, 375.65344pt x 329.73187pt>
 File: ./figures/Thalamus.png Graphic file (type png)
 
 <use ./figures/Thalamus.png>
@@ -655,7 +656,7 @@ Overfull \hbox (0.52846pt too wide) in paragraph at lines 349--350
 c-tions, emo-tion, mem-
  []
 
-<./figures/cerebrum.png, id=154, 347.79938pt x 286.06876pt>
+<./figures/cerebrum.png, id=269, 347.79938pt x 286.06876pt>
 File: ./figures/cerebrum.png Graphic file (type png)
 
 <use ./figures/cerebrum.png>
@@ -665,7 +666,7 @@ Package pdftex.def Info: ./figures/cerebrum.png used on input line 353.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/cerabral.png, id=155, 337.26pt x 404.26031pt>
+<./figures/cerabral.png, id=270, 337.26pt x 404.26031pt>
 File: ./figures/cerabral.png Graphic file (type png)
 
 <use ./figures/cerabral.png>
@@ -675,26 +676,46 @@ Package pdftex.def Info: ./figures/cerabral.png used on input line 367.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./figures/LTP1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
- [13 <./figures/LTPLTD2.png> <./figures/nervoussystem.png> <./figures/hindbrain
-.png>] [14 <./figures/midbrain.png> <./figures/Thalamus.png>] [15 <./figures/ce
-rebrum.png> <./figures/cerabral.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
+[12 <./figures/LTP1.png>] [13 <./figures/LTPLTD2.png> <./figures/nervoussystem.
+png> <./figures/hindbrain.png>] [14 <./figures/midbrain.png> <./figures/Thalamu
+s.png>] [15 <./figures/cerebrum.png> <./figures/cerabral.png>] [16
 
-(./Computational Neuroscience.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 375.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
+]
+Chapter 2.
+
+Overfull \hbox (15.3147pt too wide) in paragraph at lines 384--384
+[]\OT1/cmr/bx/n/14.4 Constructing re-sponse mod-els:Linear re-sponse 
+ []
+
+[17] [18] <figures/linearmodel.png, id=309, 415.5525pt x 190.7125pt>
+File: figures/linearmodel.png Graphic file (type png)
+
+<use figures/linearmodel.png>
+Package pdftex.def Info: figures/linearmodel.png used on input line 480.
+(pdftex.def)             Requested size: 241.49895pt x 110.83157pt.
+
+<figures/twoneuron.png, id=310, 513.92pt x 421.575pt>
+File: figures/twoneuron.png Graphic file (type png)
+
+<use figures/twoneuron.png>
+Package pdftex.def Info: figures/twoneuron.png used on input line 489.
+(pdftex.def)             Requested size: 241.49895pt x 198.10811pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
+ [19 <./figures/linearmodel.png> <./figures/twoneuron.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
+ (./Computational Neuroscience.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 495.
 Package rerunfilecheck Info: File `"Computational Neuroscience".out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 55E9FFB7B9D424B7F3E2A6E410C61B80;831.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 375.
+(rerunfilecheck)             Checksum: 0FBA94926AF07F15FEDF8D9EB02524D9;2241.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 495.
  ) 
 Here is how much of TeX's memory you used:
- 5509 strings out of 494501
- 82411 string characters out of 6167030
- 162358 words of memory out of 5000000
- 8684 multiletter control sequences out of 15000+600000
+ 5565 strings out of 494501
+ 83325 string characters out of 6167030
+ 164460 words of memory out of 5000000
+ 8713 multiletter control sequences out of 15000+600000
  9460 words of font info for 33 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  29i,7n,28p,282b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -711,10 +732,10 @@ pe1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2015basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Computational Neuroscience.pdf" (15 pages, 4570430 bytes).
+Output written on "Computational Neuroscience.pdf" (19 pages, 4789494 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 377 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
