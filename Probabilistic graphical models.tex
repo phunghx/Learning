@@ -629,4 +629,60 @@ Converting BNs to MNs (vice versa) loses independencies
 
 --- MN to BN: must add triangulating edges to loops
 
+\section{Local Structure in Markov Networks}
+\subsection{Log-Linear Representation}
+
+$\widetilde{P} = \prod_{i} \phi_i(D_i) \rightarrow \widetilde{P} = exp(-\sum_j w_j f_j (D_j))$
+
+--- Each feature $f_j$ has a scope $D_j$
+
+--- Different features can have same scope
+
+--- $w_j$ is coefficient
+
+\subsection{Ising Model}
+
+$E(x_1,...,X_n) = - \sum_{i<j} w_{i,j}x_i x_j - \sum_i u_i x_i$
+
+$x_i \in {-1,+1} f_{i,j}(X_i, X_j) = X_i * X_j $
+
+$P(X) \propto e^{-1/T * E(X)} $
+
+T: temperature 
+
+\subsection{Metric MRFs}
+
+--- All $X_i$ take values in label space V. want $X_i$ and $X_j$ ta take similar values
+
+--- Distance function $\mu$ : V x V $ \rightarrow R^+$
+
+------ Reflexivity: $\mu(v,v)$ = 0 for all v
+
+------ Symmetry: $\mu(v_1,v_2) = \mu(v_2,v_1)$ for all $v_1, v_2$
+
+------ Triangle inequality: $\mu(v_1,v_2) \leq \mu(v_1,v_3) + \mu(v_3,v_2)$ for all $v_1,v_2,v_3$
+
+$f_{i,j}(X_i,X_j) = \mu(X_i,X_j) $
+
+$exp(-w_{ij}f_{ij}(X_i,X_j)) w_ij > 0$
+
+values of $X_i$ and $X_j$ far in $\mu$ then lower probability
+
+\subsection{Shared Features in Log-Linear Models}
+ In most MRFs, same feaure and weight are used over many scopes
+ 
+ Ising Model
+ 
+ $E(x_1,...,x_n) = - \sum_{(i,j) \in Edges} w x_i x_j - \sum_i u_i x_i$
+ 
+ same weight for every adjacent pair
+ 
+ Repeated Features
+ 
+ --- Need to specify for each feature $f_k$ a set of scopes Scopes[$f_k$]
+ 
+ --- For each $D_k \in Scopes[f_k]$ we have a term $w_kf_k(D_k)$ in the energy function
+ 
+
+
 \end{document}
