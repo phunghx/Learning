@@ -8,3 +8,24 @@
 \contentsline {section}{\numberline {1.2}The Electrical Personality of Neurons}{7}{section.1.2}
 \contentsline {section}{\numberline {1.3}Making Connections: Synapses}{10}{section.1.3}
 \contentsline {section}{\numberline {1.4}Time to Network: Brain Areas and Their Function}{11}{section.1.4}
+\contentsline {chapter}{\numberline {2}Neural Code}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Recording form the brain}{17}{section.2.1}
+\contentsline {section}{\numberline {2.2}Constructing response models:Linear response}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Spatial filtering}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Spatio-temporal filtering}{17}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Feature selection}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}How build the model}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Dimensionality reduction}{18}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}What is the right stimulus to use?}{18}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Linear filtering}{18}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}nonlinear input/output function}{18}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Linear and non-linear}{18}{subsection.2.3.6}
+\contentsline {section}{\numberline {2.4}Variability}{18}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}When choose the best turning curve}{18}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Finding relevant features}{18}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Modeling the noise}{18}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Binomial spiking}{18}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Poisson spiking}{19}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}The generalized linear model}{19}{subsection.2.4.6}
+\contentsline {chapter}{\numberline {3}Neural Decoding and Signal Detectio Theory}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Decoding: Behavioral performance}{21}{section.3.1}

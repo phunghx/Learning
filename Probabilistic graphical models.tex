@@ -532,6 +532,160 @@ Base on Fig \ref{fig:treeCPD2}: $(E \perp_c D | b^1)$ and $(E \perp_c D,B | a^1)
 
 is an undirected graph whose nodes are $X_1,..,X_n$ and each edge $X_i -- X_j$ is associated with a factor (potential) $\phi_{ij}(X_i X_j)$
 
+<<<<<<< HEAD
+=======
+\subsection{General Gibbs Distribution}
+Prameters: General factors $\phi_i(D_i)$
+
+Gibbs distribution
+
+Set of factors:$\Phi = { \phi_1(D_1), ..., \phi_k(D_k)}$
+
+$\widetilde{P_{\Phi}}(X_1,..., X_n) = \prod_{i=1}^{k} \phi_i(D_i)$
+
+$Z_{\Phi} = \sum_{X_1,...,X_n} \widetilde{P_{\Phi}}(X_1,...,X_n)$
+
+$P_{\Phi}(X_1,..., X_n) = \frac{1}{Z_{\Phi}}  \widetilde{P_{\Phi}}(X_1,..., X_n) $
+
+
+
+\subsection{Induced Markov Network}
+Induced Markov network $H_{\Phi}$ has an edge $X_i - X_j$ whenever there exists a factor that incudes $X_i$ and $X_j$
+
+\subsection{Factorization}
+P factorizes over H if there exist $\Phi={\phi_i(D_1), ..., \phi_k(D_k)}$ 
+
+
+such that $P = P_\Phi$
+
+H is the induced graph for $\Phi$
+
+\subsection{Flow of Influence}
+
+\subsection{Active Trails}
+
+A trail $X_1$ --- --- $X_n$ is active given Z if no $X_i$ is in Z
+
+\subsection{Task-specific prediction}
+what are the input values, target variables
+
+Examples: Image segmentation: inputs are pixels values and precessed features, target is the class foe every pixel
+
+\subsection{Corelated Features}
+
+Naive Bayes assump that features are independent but they are correlated: add the edges to capture the correlation
+
+Correlated Features Representation (CRF) representation 
+
+$\Phi = {\phi_1(D_1),...,\phantomsection_k(D_k)}$ : Gibbs distribution
+
+$\widetilde{P_{\Phi}}(X_1,..., X_n) = \prod_{i=1}^{k} \phi_i(D_i)$
+
+$Z_{\Phi}(X) = \sum_{Y} \widetilde{P_{\Phi}}(X,Y)$
+
+$P_{\Phi}(Y|X) = \frac{1}{Z_{\Phi}(X)}  \widetilde{P_{\Phi}}(X,Y) $ : a family of conditional distribution
+
+\subsection{CRFs and Logistic Model}
+$\phi_i(X_i,Y) = exp{w_i 1{X_i=1.Y=1}}$
+
+Logistic is a very simple CRF
+
+
+\subsection{Independences in Markov Networks}
+$ I(H) = {(X \perp Y | Z) : sep_H(X,Y | Z)}$
+
+If P satisfies I(H), we say that H is an I-map (independency map) of P
+
+IF P factorizes over H, then H is an I-map of P
+
+For a positive distribution P, if H is an I-map for P, then P factorizes over H
+
+\subsection{Capturing Independence in P}
+ $I(P) = {(X \perp Y | Z) : P hold (X \perp Y | Z)} $
+ 
+ P factorizes over G $\rightarrow$ G is an I-map for P: $I(G) \subseteq I(P)$ but not always vice versa
+ 
+ \subsection{Minimal I-map}
+ I-map without redendant edges
+ 
+ Minimal I-map may still not capture I(P)
+
+\subsection{Perfect Map}
+Perfect map: I(G) = I(P)
+
+--- G perfectly captures independencies in P
+
+Markov Network as a perfect map: I(H) = I(P)
+
+--- H perfectly captures independencies in P
+
+\subsection{Uniqueness of Perfect Map}
+
+\subsection{I-equivalence}
+
+Definition: Two graphs $G_1$ and $G_2$ over $X_1,..., X_n$ are I-equivalent if $I(G_1) = I(G_2)$
+
+Converting BNs to MNs (vice versa) loses independencies
+
+--- BN to MN: v-structures
+
+--- MN to BN: must add triangulating edges to loops
+
+\section{Local Structure in Markov Networks}
+\subsection{Log-Linear Representation}
+
+$\widetilde{P} = \prod_{i} \phi_i(D_i) \rightarrow \widetilde{P} = exp(-\sum_j w_j f_j (D_j))$
+
+--- Each feature $f_j$ has a scope $D_j$
+
+--- Different features can have same scope
+
+--- $w_j$ is coefficient
+
+\subsection{Ising Model}
+
+$E(x_1,...,X_n) = - \sum_{i<j} w_{i,j}x_i x_j - \sum_i u_i x_i$
+
+$x_i \in {-1,+1} f_{i,j}(X_i, X_j) = X_i * X_j $
+
+$P(X) \propto e^{-1/T * E(X)} $
+
+T: temperature 
+
+\subsection{Metric MRFs}
+
+--- All $X_i$ take values in label space V. want $X_i$ and $X_j$ ta take similar values
+
+--- Distance function $\mu$ : V x V $ \rightarrow R^+$
+
+------ Reflexivity: $\mu(v,v)$ = 0 for all v
+
+------ Symmetry: $\mu(v_1,v_2) = \mu(v_2,v_1)$ for all $v_1, v_2$
+
+------ Triangle inequality: $\mu(v_1,v_2) \leq \mu(v_1,v_3) + \mu(v_3,v_2)$ for all $v_1,v_2,v_3$
+
+$f_{i,j}(X_i,X_j) = \mu(X_i,X_j) $
+
+$exp(-w_{ij}f_{ij}(X_i,X_j)) w_ij > 0$
+
+values of $X_i$ and $X_j$ far in $\mu$ then lower probability
+
+\subsection{Shared Features in Log-Linear Models}
+ In most MRFs, same feaure and weight are used over many scopes
+ 
+ Ising Model
+ 
+ $E(x_1,...,x_n) = - \sum_{(i,j) \in Edges} w x_i x_j - \sum_i u_i x_i$
+ 
+ same weight for every adjacent pair
+ 
+ Repeated Features
+ 
+ --- Need to specify for each feature $f_k$ a set of scopes Scopes[$f_k$]
+ 
+ --- For each $D_k \in Scopes[f_k]$ we have a term $w_kf_k(D_k)$ in the energy function
+ 
+>>>>>>> b6e9ed1134daa6c91fbd7822ade9e52f7b552923
 \subsection{Clique}
 
 A subgraph over X is complete if every two nodes on X are connected by some edges. The set X is often called a clique.
@@ -540,6 +694,9 @@ The Markov Network can be factorized by some factors if scope of this factor is 
 
 value of factor must greater than or equal zero.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6e9ed1134daa6c91fbd7822ade9e52f7b552923
 
 \end{document}

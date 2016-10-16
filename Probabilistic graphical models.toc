@@ -30,3 +30,24 @@
 \contentsline {section}{\numberline {1.14}Continue Variables}{15}{section.1.14}
 \contentsline {section}{\numberline {1.15}Exercise: Tree CPD - context specific In-dependencies}{15}{section.1.15}
 \contentsline {section}{\numberline {1.16}Markov Networks: Undirected Models}{16}{section.1.16}
+\contentsline {subsection}{\numberline {1.16.1}Pairwise Markov Networks}{16}{subsection.1.16.1}
+\contentsline {subsection}{\numberline {1.16.2}General Gibbs Distribution}{16}{subsection.1.16.2}
+\contentsline {subsection}{\numberline {1.16.3}Induced Markov Network}{17}{subsection.1.16.3}
+\contentsline {subsection}{\numberline {1.16.4}Factorization}{17}{subsection.1.16.4}
+\contentsline {subsection}{\numberline {1.16.5}Flow of Influence}{17}{subsection.1.16.5}
+\contentsline {subsection}{\numberline {1.16.6}Active Trails}{17}{subsection.1.16.6}
+\contentsline {subsection}{\numberline {1.16.7}Task-specific prediction}{17}{subsection.1.16.7}
+\contentsline {subsection}{\numberline {1.16.8}Corelated Features}{17}{subsection.1.16.8}
+\contentsline {subsection}{\numberline {1.16.9}CRFs and Logistic Model}{17}{subsection.1.16.9}
+\contentsline {subsection}{\numberline {1.16.10}Independences in Markov Networks}{17}{subsection.1.16.10}
+\contentsline {subsection}{\numberline {1.16.11}Capturing Independence in P}{18}{subsection.1.16.11}
+\contentsline {subsection}{\numberline {1.16.12}Minimal I-map}{18}{subsection.1.16.12}
+\contentsline {subsection}{\numberline {1.16.13}Perfect Map}{18}{subsection.1.16.13}
+\contentsline {subsection}{\numberline {1.16.14}Uniqueness of Perfect Map}{18}{subsection.1.16.14}
+\contentsline {subsection}{\numberline {1.16.15}I-equivalence}{18}{subsection.1.16.15}
+\contentsline {section}{\numberline {1.17}Local Structure in Markov Networks}{18}{section.1.17}
+\contentsline {subsection}{\numberline {1.17.1}Log-Linear Representation}{18}{subsection.1.17.1}
+\contentsline {subsection}{\numberline {1.17.2}Ising Model}{18}{subsection.1.17.2}
+\contentsline {subsection}{\numberline {1.17.3}Metric MRFs}{19}{subsection.1.17.3}
+\contentsline {subsection}{\numberline {1.17.4}Shared Features in Log-Linear Models}{19}{subsection.1.17.4}
+\contentsline {subsection}{\numberline {1.17.5}Clique}{19}{subsection.1.17.5}

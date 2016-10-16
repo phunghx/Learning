@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.4)  11 OCT 2016 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.15)  14 OCT 2016 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Probabilistic graphical models.tex"
 (./Probabilistic graphical models.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 4 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 21 languages loaded.
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -24,20 +24,20 @@ File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -186,8 +186,8 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -217,8 +217,8 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -241,31 +241,31 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -273,22 +273,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 142.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.s
+ty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
+y
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -328,28 +330,27 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2015basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen105
 \Hy@linkcounter=\count89
 \Hy@pagecounter=\count90
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count91
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -361,7 +362,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count92
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -386,12 +387,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count97
 \c@bookmark@seq@number=\count98
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -399,8 +400,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip43
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 13.
-
-(./Probabilistic graphical models.aux)
+ (./Probabilistic graphical models.aux)
 \openout1 = `"Probabilistic graphical models.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -418,7 +418,7 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen109
@@ -431,10 +431,9 @@ LaTeX Font Info:    ... okay on input line 14.
 \MPnumerator=\count103
 \makeMPintoPDFobject=\count104
 \everyMPtoPDFconversion=\toks18
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -442,17 +441,17 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box27
 Package hyperref Info: Link coloring ON on input line 14.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
+y
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count105
@@ -460,8 +459,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
-
-(./Probabilistic graphical models.out) (./Probabilistic graphical models.out)
+ (./Probabilistic graphical models.out)
+(./Probabilistic graphical models.out)
 \@outlinefile=\write3
 \openout3 = `"Probabilistic graphical models.out"'.
 
@@ -471,11 +470,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 17.
+ [1
 
-[1
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
 (./Probabilistic graphical models.toc
@@ -483,22 +481,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
-)
+ [3])
 \tf@toc=\write4
 \openout4 = `"Probabilistic graphical models.toc"'.
 
- [3] [4
-
-]
+ [4]
 Chapter 1.
-<figures/Models.png, id=215, 906.38625pt x 461.725pt>
+<figures/Models.png, id=342, 906.38625pt x 461.725pt>
 File: figures/Models.png Graphic file (type png)
  <use figures/Models.png>
 Package pdftex.def Info: figures/Models.png used on input line 27.
 (pdftex.def)             Requested size: 241.49895pt x 123.0188pt.
 
-[5 <./figures/Models.png>] [6]
-<figures/bayesian_ex1.png, id=232, 808.01875pt x 793.96625pt>
+[5
+
+ <./figures/Models.png>] [6]
+<figures/bayesian_ex1.png, id=359, 808.01875pt x 793.96625pt>
 File: figures/bayesian_ex1.png Graphic file (type png)
 
 <use figures/bayesian_ex1.png>
@@ -508,7 +506,7 @@ Package pdftex.def Info: figures/bayesian_ex1.png used on input line 151.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] <./figures/independence.png, id=239, 469.755pt x 231.86626pt>
+[7] <./figures/independence.png, id=366, 469.755pt x 231.86626pt>
 File: ./figures/independence.png Graphic file (type png)
 
 <use ./figures/independence.png>
@@ -530,14 +528,14 @@ m/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 S\OMS/cmsy/m/n/10 j\OML/cmm/m/it/1
 )
  []
 
-<./figures/naivebayes.png, id=246, 536.75531pt x 165.61874pt>
+<./figures/naivebayes.png, id=373, 536.75531pt x 165.61874pt>
 File: ./figures/naivebayes.png Graphic file (type png)
 
 <use ./figures/naivebayes.png>
 Package pdftex.def Info: ./figures/naivebayes.png used on input line 238.
 (pdftex.def)             Requested size: 241.49669pt x 55.00308pt.
  [9 <./figures/independence.png> <./figures/naivebayes.png>] [10]
-<./figures/templatetransition.png, id=258, 481.04718pt x 341.77687pt>
+<./figures/templatetransition.png, id=385, 481.04718pt x 341.77687pt>
 File: ./figures/templatetransition.png Graphic file (type png)
 
 <use ./figures/templatetransition.png>
@@ -545,42 +543,42 @@ Package pdftex.def Info: ./figures/templatetransition.png used on input line 32
 7.
 (pdftex.def)             Requested size: 241.49895pt x 171.58162pt.
  [11 <./figures/templatetransition.png>]
-<./figures/markovmodel.png, id=266, 793.46437pt x 181.42781pt>
+<./figures/markovmodel.png, id=393, 793.46437pt x 181.42781pt>
 File: ./figures/markovmodel.png Graphic file (type png)
 
 <use ./figures/markovmodel.png>
 Package pdftex.def Info: ./figures/markovmodel.png used on input line 380.
 (pdftex.def)             Requested size: 241.49895pt x 55.21774pt.
 
-<./figures/robot.png, id=267, 867.99281pt x 486.31688pt>
+<./figures/robot.png, id=394, 867.99281pt x 486.31688pt>
 File: ./figures/robot.png Graphic file (type png)
 
 <use ./figures/robot.png>
 Package pdftex.def Info: ./figures/robot.png used on input line 387.
 (pdftex.def)             Requested size: 241.49895pt x 135.307pt.
  [12 <./figures/markovmodel.png> <./figures/robot.png>] <./figures/nestedplate.
-png, id=274, 834.86906pt x 486.31688pt>
+png, id=401, 834.86906pt x 486.31688pt>
 File: ./figures/nestedplate.png Graphic file (type png)
 
 <use ./figures/nestedplate.png>
 Package pdftex.def Info: ./figures/nestedplate.png used on input line 410.
 (pdftex.def)             Requested size: 241.49895pt x 140.67209pt.
 
-<./figures/ovelapping.png, id=275, 877.77937pt x 363.60844pt>
+<./figures/ovelapping.png, id=402, 877.77937pt x 363.60844pt>
 File: ./figures/ovelapping.png Graphic file (type png)
 
 <use ./figures/ovelapping.png>
 Package pdftex.def Info: ./figures/ovelapping.png used on input line 419.
 (pdftex.def)             Requested size: 241.49895pt x 100.03424pt.
  [13 <./figures/nestedplate.png> <./figures/ovelapping.png>] <./figures/treeCPD
-.png, id=283, 900.36375pt x 379.4175pt>
+.png, id=410, 900.36375pt x 379.4175pt>
 File: ./figures/treeCPD.png Graphic file (type png)
 
 <use ./figures/treeCPD.png>
 Package pdftex.def Info: ./figures/treeCPD.png used on input line 480.
 (pdftex.def)             Requested size: 241.49895pt x 101.76672pt.
 
-<./figures/contextCPD.png, id=284, 813.79031pt x 328.22626pt>
+<./figures/contextCPD.png, id=411, 813.79031pt x 328.22626pt>
 File: ./figures/contextCPD.png Graphic file (type png)
 
 <use ./figures/contextCPD.png>
@@ -590,14 +588,14 @@ Package pdftex.def Info: ./figures/contextCPD.png used on input line 489.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/noisyCPD.png, id=285, 873.2625pt x 476.53032pt>
+<./figures/noisyCPD.png, id=412, 873.2625pt x 476.53032pt>
 File: ./figures/noisyCPD.png Graphic file (type png)
 
 <use ./figures/noisyCPD.png>
 Package pdftex.def Info: ./figures/noisyCPD.png used on input line 500.
 (pdftex.def)             Requested size: 241.49895pt x 131.78427pt.
  [14 <./figures/treeCPD.png>]
-<./figures/sigmoidCPD.png, id=292, 909.3975pt x 460.72125pt>
+<./figures/sigmoidCPD.png, id=418, 909.3975pt x 460.72125pt>
 File: ./figures/sigmoidCPD.png Graphic file (type png)
 
 <use ./figures/sigmoidCPD.png>
@@ -607,7 +605,7 @@ Package pdftex.def Info: ./figures/sigmoidCPD.png used on input line 511.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/treeCPD2.png, id=293, 346.29375pt x 259.97125pt>
+<./figures/treeCPD2.png, id=419, 346.29375pt x 259.97125pt>
 File: ./figures/treeCPD2.png Graphic file (type png)
 
 <use ./figures/treeCPD2.png>
@@ -617,13 +615,15 @@ Package pdftex.def Info: ./figures/treeCPD2.png used on input line 523.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
 [15 <./figures/contextCPD.png> <./figures/noisyCPD.png>] [16 <./figures/sigmoid
-CPD.png> <./figures/treeCPD2.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
- (./Probabilistic graphical models.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
+CPD.png> <./figures/treeCPD2.png>] [17] [18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 694.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 694.
+
+(./Probabilistic graphical models.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 694.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 694.
 
 
 Package rerunfilecheck Warning: File `"Probabilistic graphical models".out' has
@@ -633,36 +633,39 @@ Package rerunfilecheck Warning: File `"Probabilistic graphical models".out' has
 
 Package rerunfilecheck Info: Checksums for `"Probabilistic graphical models".ou
 t':
-(rerunfilecheck)             Before: B53E705CEDE6B37F10458FF212BB066A;2319
-(rerunfilecheck)             After:  9E4FF9C0F11EAEFF7A863EB5C2D42923;2401.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
+(rerunfilecheck)             Before: 9A3E22A149A2BD78A9B4E7A414A63540;3937
+(rerunfilecheck)             After:  BE4F2C819425210E311D3ADE657D4A85;3999.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 694.
  ) 
 Here is how much of TeX's memory you used:
- 5507 strings out of 494985
- 81522 string characters out of 6180357
- 163756 words of memory out of 5000000
- 8606 multiletter control sequences out of 15000+600000
+ 5554 strings out of 494501
+ 83084 string characters out of 6167030
+ 166231 words of memory out of 5000000
+ 8692 multiletter control sequences out of 15000+600000
  9460 words of font info for 33 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 29i,7n,28p,413b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-l10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Probabilistic graphical models.pdf" (16 pages, 2894143 bytes
+ 319 hyphenation exceptions out of 8191
+ 29i,7n,28p,413b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi5.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015basic/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015basic/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2015basic/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015basic/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Probabilistic graphical models.pdf" (19 pages, 2919029 bytes
 ).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 64 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 462 compressed objects within 5 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 487 words of extra memory for PDF output out of 10000 (max. 10000000)
 
