@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.4)  4 OCT 2016 13:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.4)  15 OCT 2016 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -677,19 +677,19 @@ Package pdftex.def Info: ./figures/cerabral.png used on input line 367.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12 <./figures/LTP1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
  [13 <./figures/LTPLTD2.png> <./figures/nervoussystem.png> <./figures/hindbrain
 .png>] [14 <./figures/midbrain.png> <./figures/Thalamus.png>] [15 <./figures/ce
 rebrum.png> <./figures/cerabral.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
 
 (./Computational Neuroscience.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 375.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
 Package rerunfilecheck Info: File `"Computational Neuroscience".out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 55E9FFB7B9D424B7F3E2A6E410C61B80;831.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 375.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
  ) 
 Here is how much of TeX's memory you used:
  5508 strings out of 494985
