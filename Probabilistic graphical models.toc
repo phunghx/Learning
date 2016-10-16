@@ -50,3 +50,4 @@
 \contentsline {subsection}{\numberline {1.17.2}Ising Model}{18}{subsection.1.17.2}
 \contentsline {subsection}{\numberline {1.17.3}Metric MRFs}{19}{subsection.1.17.3}
 \contentsline {subsection}{\numberline {1.17.4}Shared Features in Log-Linear Models}{19}{subsection.1.17.4}
+\contentsline {subsection}{\numberline {1.17.5}Clique}{19}{subsection.1.17.5}

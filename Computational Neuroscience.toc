@@ -27,3 +27,5 @@
 \contentsline {subsection}{\numberline {2.4.4}Binomial spiking}{18}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Poisson spiking}{19}{subsection.2.4.5}
 \contentsline {subsection}{\numberline {2.4.6}The generalized linear model}{19}{subsection.2.4.6}
+\contentsline {chapter}{\numberline {3}Neural Decoding and Signal Detectio Theory}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Decoding: Behavioral performance}{21}{section.3.1}
