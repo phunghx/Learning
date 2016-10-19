@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.4)  4 OCT 2016 14:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.4)  16 OCT 2016 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -479,9 +479,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] (./neural network for machine learning.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write4
 \openout4 = `"neural network for machine learning.toc"'.
@@ -491,36 +491,48 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
-[5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
- (./neural network for machine learning.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
+[5] [6
+
+]
+Chapter 2.
+<./figures/weightplane.png, id=72, 850.67813pt x 456.95718pt>
+File: ./figures/weightplane.png Graphic file (type png)
+
+<use ./figures/weightplane.png>
+Package pdftex.def Info: ./figures/weightplane.png used on input line 70.
+(pdftex.def)             Requested size: 241.49895pt x 129.72514pt.
+ [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+ [8 <./figures/weightplane.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+
+(./neural network for machine learning.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `"neural network for machine learning".out' h
 as not changed.
-(rerunfilecheck)             Checksum: 6B3CAF54040B7C31C52E5D96362A2746;107.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
+(rerunfilecheck)             Checksum: 0040CAD65283547F60AE054BADCFF5A1;351.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 5334 strings out of 494985
- 78456 string characters out of 6180357
- 156042 words of memory out of 5000000
- 8505 multiletter control sequences out of 15000+600000
- 9153 words of font info for 32 fonts, out of 8000000 for 9000
+ 5356 strings out of 494985
+ 78777 string characters out of 6180357
+ 158089 words of memory out of 5000000
+ 8516 multiletter control sequences out of 15000+600000
+ 9460 words of font info for 33 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 29i,6n,28p,293b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,28p,293b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on "neural network for machine learning.pdf" (5 pages, 65214 byt
-es).
+Output written on "neural network for machine learning.pdf" (8 pages, 159907 by
+tes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 

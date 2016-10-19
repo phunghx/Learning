@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {1.16.7}Task-specific prediction}{17}{subsection.1.16.7}
 \contentsline {subsection}{\numberline {1.16.8}Corelated Features}{17}{subsection.1.16.8}
 \contentsline {subsection}{\numberline {1.16.9}CRFs and Logistic Model}{17}{subsection.1.16.9}
-\contentsline {subsection}{\numberline {1.16.10}Independences in Markov Networks}{17}{subsection.1.16.10}
+\contentsline {subsection}{\numberline {1.16.10}Independences in Markov Networks}{18}{subsection.1.16.10}
 \contentsline {subsection}{\numberline {1.16.11}Capturing Independence in P}{18}{subsection.1.16.11}
 \contentsline {subsection}{\numberline {1.16.12}Minimal I-map}{18}{subsection.1.16.12}
 \contentsline {subsection}{\numberline {1.16.13}Perfect Map}{18}{subsection.1.16.13}
@@ -47,7 +47,16 @@
 \contentsline {subsection}{\numberline {1.16.15}I-equivalence}{18}{subsection.1.16.15}
 \contentsline {section}{\numberline {1.17}Local Structure in Markov Networks}{18}{section.1.17}
 \contentsline {subsection}{\numberline {1.17.1}Log-Linear Representation}{18}{subsection.1.17.1}
-\contentsline {subsection}{\numberline {1.17.2}Ising Model}{18}{subsection.1.17.2}
+\contentsline {subsection}{\numberline {1.17.2}Ising Model}{19}{subsection.1.17.2}
 \contentsline {subsection}{\numberline {1.17.3}Metric MRFs}{19}{subsection.1.17.3}
 \contentsline {subsection}{\numberline {1.17.4}Shared Features in Log-Linear Models}{19}{subsection.1.17.4}
 \contentsline {subsection}{\numberline {1.17.5}Clique}{19}{subsection.1.17.5}
+\contentsline {chapter}{\numberline {2}Decision Making}{21}{chapter.2}
+\contentsline {section}{\numberline {2.1}Simple Decision Making}{21}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Simple Influence Diagram}{21}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Information Edges}{22}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Expected Utility with Information}{22}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Finding MEU Decision Rules}{22}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}More Generally}{22}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}Utility Function}{23}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Utilites and Preferences}{23}{subsection.2.2.1}

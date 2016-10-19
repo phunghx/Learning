@@ -685,7 +685,7 @@ values of $X_i$ and $X_j$ far in $\mu$ then lower probability
  
  --- For each $D_k \in Scopes[f_k]$ we have a term $w_kf_k(D_k)$ in the energy function
  
->>>>>>> b6e9ed1134daa6c91fbd7822ade9e52f7b552923
+
 \subsection{Clique}
 
 A subgraph over X is complete if every two nodes on X are connected by some edges. The set X is often called a clique.
@@ -694,9 +694,100 @@ The Markov Network can be factorized by some factors if scope of this factor is 
 
 value of factor must greater than or equal zero.
 
-<<<<<<< HEAD
+\chapter{Decision Making}
 
-=======
->>>>>>> b6e9ed1134daa6c91fbd7822ade9e52f7b552923
+\section{Simple Decision Making}
+
+A simple decision making situation D:
+
+--- A set og possible actions $Val(A) = {a^1,...,a^k}$
+
+--- A set of states $Val(X) = {x^1,..,x^N}$
+
+--- A distribution $P(X|A)$
+
+--- A utility function U(X,A): take action how state is this, allow to evaluate the action
+
+Expected Utility
+
+$EU[D[a]] = \sum_{x} P(x|a) U(x,a)$
+
+Want to choose action a that maximizes the EU
+
+$a^* = argmax_aEU[D[a]]$
+
+
+\subsection{Simple Influence Diagram}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/decision}
+\caption{Simple decision. Found is action not a random variable so Found does not have CPD. $f^0$: not found company, $f^1$: found company }
+\label{fig:decision}
+\end{figure}
+
+$EU(f^0) = 0$
+
+$E(f^1) = 0.5*(-7) + 0.3 *5+0.2*20 > 0$
+
+found company is optimal action
+
+\subsection{Information Edges}
+
+Decision rule $\theta$ at action node $A$ is a CPD: $P(A|Parents(A))$
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/decisionedge}
+\caption{Decision rule at action node}
+\label{fig:decisionedge}
+\end{figure}
+
+\subsection{Expected Utility with Information}
+
+$ED[D[\delta_A]] = \sum_{x,a}P_{\delta_A}(x,a) U(x,a)$
+
+Want to choose the decision rules $\delta_A$ that maximizes ED
+
+\subsection{Finding MEU Decision Rules}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/decisionedge1}
+\caption{Finding MEU Decision Rules}
+\label{fig:decisionedge1}
+\end{figure}
+
+$P(f^1|s^0) = \sum_{M} P(M)* P(S=s^0|M) * U(F=f^1,M)$
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./figures/MEU}
+\caption{Finding MEU}
+\label{fig:MEU}
+\end{figure}
+
+\subsection{More Generally}
+
+$Z = Pa_A$ (observation prior to A)
+$W = {X_1,...,X_n} - Z$
+
+$EU[D[\delta_A]] = \sum_{x,a} P_{\delta_A}(x,a) U(x,a)$ 
+
+$EU[D[\delta_A]]= \sum_{X_1,...,X_n,A}((\prod_{i} P(X_i|Pa_{X_i}))U(Pa_U)\delta_A(A|Z))$
+
+$EU[D[\delta_A]]= \sum_{Z,A} \delta_A(A|Z) \sum_{W}((\prod_i P(X_i|Pa_{X_i}))U(Pa_U))$
+
+$EU[D[\delta_A]]= \sum_{Z,A} \delta_A(A|Z) \mu(A,Z) $: eliminate all variable except A,Z
+
+$\delta_A^*(a|z) = 1 if a=argmax_A\mu(A,z)$ otherwise is 0
+
+
+\section{Utility Function}
+\subsection{St. Petersburg Paradox}
+
+Fair coin is tossed repeated until it comes up heads say on the n_th tosses
+ 
+ 
+
 
 \end{document}
